@@ -1,0 +1,68 @@
+{
+  "kit": "Nano7 Community Mac Kit",
+  "version": "1.0",
+  "app_names": [
+    "Calculator",
+    "Contacts",
+    "Chess",
+    "Golf"
+  ],
+  "files": {
+    "Apps/AllApps-B.pack": {
+      "size": 3512,
+      "sha256": "f3d9ec3f1d454fb39f367792c5febb90116b208c2a68923e550cce7ec95edfa2"
+    },
+    "Apps/AllApps.pack": {
+      "size": 2628,
+      "sha256": "a9e4583073c4a652727d1cca3b989d9961d1ba890c0119d6d5cd31d6593f7d7f"
+    },
+    "Apps/Executables/Calculator.hbapp": {
+      "size": 486460,
+      "sha256": "56b1f530919c82cee70fd1e51225c5cb2aa63c878f76912b8775207aef10ac99"
+    },
+    "Apps/Executables/Chess.hbapp": {
+      "size": 248888,
+      "sha256": "dd21f076d29e54a7a34bc78a6d33047ecdfb1f6fce944ef903d2d48976205f5f"
+    },
+    "Apps/Executables/Contacts.hbapp": {
+      "size": 346316,
+      "sha256": "0169972aaeb3fe4f899b8685378e3eee9b674cf478e9c4a8438baa7a1b7d4d3e"
+    },
+    "Apps/Executables/Golf.hbapp": {
+      "size": 284032,
+      "sha256": "412d8bcb5e2d4ea6e3f8664b76f775922ecc57423b0b4684a0303c6357eea0b6"
+    },
+    "Apps/Icons/Calculator.bin": {
+      "size": 50208,
+      "sha256": "5d6f93827bb2bebaaaf33529d722d2a32873ceef53aa9739ccb97f7a55aaccb4"
+    },
+    "Apps/Icons/Chess.bin": {
+      "size": 50208,
+      "sha256": "5775d3eeb26d22c79ffc1d4c96e9c92506ab3ed9445c3bf0b92baf68f0cb6066"
+    },
+    "Apps/Icons/Contacts.bin": {
+      "size": 50208,
+      "sha256": "34423b4636009e36aca3e5d65635bea3b4c089d0701a6d22170ede6b5407cc30"
+    },
+    "Apps/Icons/Golf.bin": {
+      "size": 50208,
+      "sha256": "69729950577095827462a56f18168313abc53ce57d98c80a8bae96629dfad831"
+    },
+    "Apps/Startup/ab.hbapp": {
+      "size": 1487,
+      "sha256": "9b4c82fd9cc2b94723d19bf89404b0d5dbc1ea9d73c880a097ef3c026e95f6d2"
+    },
+    "Apps/Startup/resident-A.hbapp": {
+      "size": 16244,
+      "sha256": "0f81cebdda2c12f33ff83c363cf6ccdbdeaa2b38fae4ae4efaa7c47bc5d86803"
+    },
+    "Apps/Startup/resident-B.active": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Apps/Startup/resident-B.hbapp": {
+      "size": 17392,
+      "sha256": "91115a2ef8cd75a533f120fc2a6af4c7af137ddfc0227af16e31c51893f13167"
+    }
+  }
+}

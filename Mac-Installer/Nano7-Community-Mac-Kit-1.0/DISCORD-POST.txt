@@ -1,0 +1,16 @@
+**iPod nano 7G apps on a Mac — 2012 & 2015 guide + installer**
+
+I put together a Mac app installation kit with Calculator, Contacts, Chess and Golf, the native Home-screen icons and the startup loader. It detects a mounted nano, backs up the exact files it changes, installs them with checksum verification, and has a Restore option. There's an offline self-test too.
+
+**Important:** This is for iPod nano 7G devices that **already have compatible untethered homebrew firmware**. It does NOT jailbreak a stock nano or flash firmware. The 2012 and 2015 versions require the correct revision-specific firmware, and using the wrong one can permanently brick the device. The included app binary/loader set came from a working 2015 gold nano setup; it is **not yet verified on 2012 hardware**. Please read the guide before installing, and back up your nano before any firmware modification.
+
+After unzipping, on a Mac with Python 3 installed, use Terminal:
+
+bash ~/Downloads/Nano7-Community-Mac-Kit-1.0/Start.command
+
+Choose Inspect first, then the install option only if you already have compatible untethered firmware. A backup is made to your Mac Desktop. If you're on stock firmware, read `2012-AND-2015-GUIDE.md` instead; official NanoApps currently documents Linux for its full app install and a separate firmware restore flow.
+
+Original NanoApps project: https://github.com/nfzerox/NanoApps
+Firmware project: https://github.com/nfzerox/ipod_sun_untethered
+
+If someone on a 2012 nano tests it, please report firmware source, filesystem, which apps launch and whether they survive reboot. Don't post your serial number or full backup.
