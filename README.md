@@ -1,40 +1,38 @@
-# Nano 7th Apps — Mac installer
+# Nano 7th Apps
 
-Calculator, Contacts, Chess and Golf for the 7th-generation iPod nano. The ZIP has the apps, icons, startup files and Mac installer all together.
+Calculator, Contacts, Chess and Golf for the iPod nano 7th generation. Mac installer and app files are in one ZIP.
 
-## Install from a Mac
+**[Download the Mac kit](Nano7-Mac-Apps-1.1.zip?raw=1)**
 
-1. **[Download Nano7-Community-Mac-Kit-1.0.zip](Nano7-Community-Mac-Kit-1.0.zip?raw=1)** and unzip it in Downloads.
-2. Connect **one** nano to your Mac.
+## Already have homebrew firmware?
+
+1. Download the ZIP and unzip it in **Downloads**.
+2. Connect one nano to the Mac.
 3. Open Terminal and run:
 
-   ```bash
-   bash ~/Downloads/Nano7-Community-Mac-Kit-1.0/Start.command
-   ```
+```bash
+bash ~/Downloads/Nano7-Mac-Apps/Start.command
+```
 
-4. Choose **1** to check the nano, **5** to check the package offline, then **2** to install. Read the confirmation on screen.
-5. Eject the nano. Open Music, then go back to the Home Screen to refresh the icons.
+Choose **1** to check your nano, **5** to check the files, then **2** to install. Follow the prompts and safely eject when it finishes. Opening Music and going back Home should refresh the icons.
 
-If you extracted the folder somewhere else, type `bash ` in Terminal, drag `Start.command` into Terminal and press Return. The installer needs Python 3 (`python3 --version`); [get it here](https://www.python.org/downloads/macos/) if it's missing.
+The installer needs Python 3 (`python3 --version`). [Download Python for Mac](https://www.python.org/downloads/macos/) if you don't have it.
 
-## IMPORTANT — firmware and model
+## Still on stock firmware?
 
-The nano must already have compatible homebrew/untethered firmware. The Mac installer copies files under `/Apps`; it does not flash an IPSW.
+Read **[Stock nano setup](SETUP.md)** before running the app installer. The ZIP also has `Get-Firmware.command` for downloading and checking the correct **2012 or 2015** firmware. It doesn't flash your nano.
 
-- **2015 nano:** the four-app files came from a customized 2015 gold nano. 
+The 2012 and 2015 nanos use different patched firmware, even though both may be labelled A1446. Make sure you know which one you have.
 
-Both revisions may say **A1446**, but their patched firmware images aren't interchangeable. See [2012](2012.md) or [2015](2015.md) instructions if you still have stock firmware.
+## A few things to know
 
-## What the installer does
+- This four-app pack came from a working **2015 nano**. The included resident loader hasn't been verified on a 2012 nano, so don't treat it as a tested 2012 installer.
+- Your nano needs **compatible untethered firmware** before the app install. This kit doesn't jailbreak a stock nano.
+- The installer backs up the 14 files it replaces on your Desktop and has a restore option (**4**) if the nano still mounts. It's not a full-device or firmware backup.
+- The installation and rollback were tested offline. Other devices and firmware variants still need real-world testing.
 
-The installer backs up any of the 14 tracked files it replaces to `~/Desktop/Nano7-App-Backups/`, copies and verifies the new files, and has a restore option (**4**) if the iPod still mounts. This is **not** a full firmware backup. It doesn't touch your music or deliberately change partitions.
+If you want the whole homebrew app collection, use [NanoApps](https://github.com/nfzerox/NanoApps) instead of installing its loader over this pack.
 
-The package contains Calculator, Contacts, Chess, Golf, their icons, the app pack, A/B startup/resident files, and a Python installer. 
+[Stock setup, both revisions](SETUP.md) · [Credits and licenses](LICENSES.md)
 
-[2012 guide](2012.md) · [2015 guide](2015.md) · [Troubleshooting](TROUBLESHOOTING.md) · [Credits and licenses](CREDITS-AND-LICENSES.md)
-
-Credit
-
-ZIP SHA-256: `04fdfdea212696519caf897b7b1c07a2ea27aa540a9688e5193fa43519ae2168`
-
-Apps build on [NanoApps](https://github.com/nfzerox/NanoApps); firmware/loader work builds on [ipod_sun_untethered](https://github.com/nfzerox/ipod_sun_untethered) and [nano7-untethered](https://github.com/olievans123/nano7-untethered). 
+ZIP SHA-256: `b5d9bce82d855e662a9a8a275e67b8fb5646167bbce1f03f120a61b08a0bb513`
