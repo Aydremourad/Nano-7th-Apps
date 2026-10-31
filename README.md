@@ -1,6 +1,7 @@
 # Nano 7th Apps
 
 Calculator, Contacts, Chess and Golf for the iPod nano 7th generation. Mac installer and app files are in one ZIP.
+THIS IS CURRENTLY IN BETA USE AT YOUR OWN RISK
 
 **[Download the Mac kit](Nano7-Mac-Apps-1.1.zip?raw=1)**
 
